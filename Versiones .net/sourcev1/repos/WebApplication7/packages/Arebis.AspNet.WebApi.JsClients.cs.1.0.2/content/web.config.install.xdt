@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <appSettings>
+        <add key="Api.AppName" value="Api_AppName_From_WebConfig_AppSettings" xdt:Transform="Insert" />
+    </appSettings>
+</configuration>
