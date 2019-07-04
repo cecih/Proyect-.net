@@ -1,0 +1,2 @@
+D:\MVC.RealEstate\MVC.RealEstate\obj\Debug\MVC.RealEstate.csprojAssemblyReference.cache
+D:\MVC.RealEstate\MVC.RealEstate\obj\Debug\MVC.RealEstate.csproj.CoreCompileInputs.cache

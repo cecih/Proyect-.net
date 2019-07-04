@@ -1,0 +1,83 @@
+﻿#bodyContent {
+    min-height:540px;
+    margin-top:50px;
+    
+}
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color:#ffeeee;
+  
+}
+.validation-summary-errors li {
+    color:#ffeeee;
+}
+
+.row-item {
+    float: left;
+}
+
+.clearFloat {
+    overflow: hidden;
+    height: 1%;
+}
+.span1 {
+    width:10%
+}
+.span2 {
+    width:20%
+}
+.span3 {
+    width:30%
+}
+.span4 {
+    width:40%
+}
+.span5 {
+    width:50%
+}
+#searchedItem {
+    margin: 24px 0px;
+}
+/* Start search   */
+#mainSearch {
+    width:100%;
+    margin-bottom:30px
+}
+.searchContainer{
+    border-radius: 6px 6px 6px 6px;
+    height: 121px;
+    margin: auto;
+    margin-top:24px;
+    padding: 0;
+    background-color:#e6e6e6;
+}
+
+#cityDescription {
+    border-radius: 6px 6px 6px 6px;
+    color: #4F4B40;
+    font-size: 30px;
+    height: 37px;
+    margin: 36px 16px 0 58px;
+    
+    float:left;
+}
+#btnSearch {
+    margin: 36px 24px 0 0px;
+
+}
+#resume .property-featured-container.row-item {
+    margin-left:220px;
+}
+
+#resume .thumbnail {
+    height: 300px;
+}
+
+#bodyContent {
+    margin-bottom: 20px;
+}
+
+/* End search   */
+#searchedItem .image-container {
+    margin-right:24px;
+}

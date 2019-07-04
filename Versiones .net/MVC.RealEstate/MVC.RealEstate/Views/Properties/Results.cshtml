@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MVC.RealEstate.WebUI.Models.Entities.Property>
+
+@{
+    ViewBag.Title = "Results";
+}
+
+<h2>Results</h2>
+
+@foreach (var item in Model) {
+
+    Html.RenderPartial("AdItem", item);
+}
+
+

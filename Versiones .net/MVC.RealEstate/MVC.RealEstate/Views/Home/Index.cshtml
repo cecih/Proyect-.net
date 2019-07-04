@@ -1,0 +1,30 @@
+﻿@model MVC.RealEstate.WebUI.Models.PropertiesResume
+<script src="@Url.Content("~/Scripts/Home/search.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm("Search", "Properties"))
+{
+    <div id="mainSearch" class="span12">
+        <div class="searchContainer clearFloat span9">
+       
+            <input id="cityDescription" class="span6 row-item"  />
+            <input id="cityID" name="cityID" type="hidden" />
+            
+            <input id="btnSearch" class="btn btn-large btn-primary row-item" type="submit" value="Buscar" />
+        </div>
+    </div>
+    <div id="resume">
+        @Html.DisplayAdResume(model => model.Properties)
+    </div>
+} 
+
+<div class="container">
+    <footer>
+        <div class="well-large">
+            <span class="credits">&copy; 2019<a href="http://www.movizen.com">Movizen</a>,
+            all rights reserved</span>
+            </div>
+     </footer>
+
+
+</div>    
+  

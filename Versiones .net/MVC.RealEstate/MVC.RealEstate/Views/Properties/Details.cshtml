@@ -1,0 +1,39 @@
+﻿@model MVC.RealEstate.WebUI.Models.Entities.Property
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Ad</legend>
+
+    <div id="searchedItem" class="clearFloat">
+        <table>
+            <tr>
+                <img class="thumbnail" id=@Model.PropertyID src="@Url.Content("~/Images/1.jpg")" alt=@Model.Title />
+             </tr>
+
+            <tr>
+                <p>@Model.Title</p>
+                <p>@Model.Address</p>
+                <p>@Model.Price</p>
+                <p>@Model.Description</p>
+             </tr>
+
+</table>
+
+
+       
+
+
+       
+
+    </div>
+
+</fieldset>
+<p>
+    <a>@Html.ActionLink("Back 2", "Edit")</a>
+    @Html.ActionLink("Back to List", "Index")
+</p>

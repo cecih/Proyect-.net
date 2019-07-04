@@ -1,0 +1,18 @@
+﻿@model MVC.RealEstate.Domain.Entities.Ad
+<div id="searchedItem" class="clearFloat">
+    <div class="row-item span4 image-container">
+        <img class="thumbnail" id=@Model.AdID src="@Url.Content("~/Images/1.jpg")" alt=@Model.Title/>
+    </div>
+    <div class="row-item span6">
+        <p>@Model.Title</p>
+        <p>@Model.City.Region.Description</p>
+        <p>@Model.City.Description</p>
+        <p>@Model.Address</p>
+        <p>@Model.Price</p>
+        <p>@Model.Description</p>
+        @Html.ActionLink("Detalle", "Details", "Ad", new { id = Model.AdID }, null)
+    </div>
+</div>
+
+
+
