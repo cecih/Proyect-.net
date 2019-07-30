@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "SubirArchivo";
+}
+
+<h2>SubirArchivo</h2>
+<!--mostramos el error o confirmacion del archivo elegido-->
+<h2 class="text-danger">@ViewBag.Error</h2>
+<h2 class="text-success">@ViewBag.Confirmacion</h2>
+<!--definimos un formulario para tomar un archivo-->
+<form method="post" enctype="multipart/form-data">
+   <input type="file" name="file" />
+    <button type="submit">Submit</button>
+</form>
+
